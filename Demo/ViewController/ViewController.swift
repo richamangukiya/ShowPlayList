@@ -27,7 +27,7 @@ class ViewController: UIViewController {
 extension ViewController {
     
     //MARK: - SetUp View
-    func setUp() {
+    func setUp() {  
         playListTableView.delegate = self
         playListTableView.dataSource = self
         playListTableView.register(UINib(nibName: PlayListTableViewCell.identifier, bundle: nil), forCellReuseIdentifier: PlayListTableViewCell.identifier)
